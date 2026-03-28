@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lógica Matemática — Proyecto Universitario</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ENCABEZADO / NAVEGACIÓN -->
+  <header>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Lógica<span>Matemática</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="activo">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-tag">Proyecto Académico Universitario</span>
+      <h1>Fundamentos de la<br>Lógica Matemática</h1>
+      <p>Un recurso educativo orientado al estudio formal del razonamiento lógico, sus estructuras y su aplicación en las ciencias de la computación.</p>
+      <a href="nosotros.html" class="btn-hero">Conocer el Proyecto</a>
+    </div>
+  </section>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+
+    <!-- INTRODUCCIÓN -->
+    <section>
+      <div class="seccion-intro">
+        <div>
+          <h2>¿Qué es la Lógica Matemática?</h2>
+          <p>La <strong>lógica matemática</strong> es una rama de las matemáticas que estudia el razonamiento formal y los principios de la inferencia válida. Proporciona las herramientas necesarias para construir demostraciones rigurosas, analizar la corrección de argumentos y diseñar sistemas formales de inferencia.</p>
+          <p>Su importancia es transversal: desde la filosofía y la lingüística hasta la inteligencia artificial y el diseño de circuitos digitales, la lógica matemática constituye la columna vertebral del pensamiento preciso.</p>
+        </div>
+        <div class="divider-vertical"></div>
+        <div>
+          <h2>Relevancia en la Educación</h2>
+          <p>En el contexto universitario, el estudio de la lógica matemática permite al estudiante desarrollar capacidades de análisis crítico, abstracción y resolución de problemas complejos. Estos son atributos indispensables en cualquier disciplina científica o tecnológica.</p>
+          <p>Este proyecto busca presentar sus conceptos fundamentales de manera clara y accesible, favoreciendo el aprendizaje progresivo desde los elementos más básicos hasta estructuras de mayor complejidad.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOQUE DESTACADO -->
+    <div class="destacado">
+      <p>💡 <strong>Nota académica:</strong> Los contenidos de este sitio corresponden a los temas centrales del curso de Lógica Matemática del primer año universitario de Ciencias de la Computación e Ingeniería de Sistemas. Todo el material está estructurado conforme al programa oficial.</p>
+    </div>
+
+    <!-- TEMAS -->
+    <section>
+      <h2>Temas Centrales del Curso</h2>
+      <p>A continuación se presentan los bloques temáticos que estructuran el estudio de la lógica proposicional elemental:</p>
+
+      <div class="temas-grid">
+
+        <div class="tema-card">
+          <h3>1. Proposiciones</h3>
+          <p>Una <strong>proposición</strong> es un enunciado declarativo que puede ser verdadero o falso, pero nunca ambos a la vez. Es la unidad básica del razonamiento lógico formal. Ejemplo: «El número 2 es par» (V); «5 es mayor que 10» (F).</p>
+        </div>
+
+        <div class="tema-card">
+          <h3>2. Conectores Lógicos</h3>
+          <p>Los <strong>conectores</strong> permiten combinar proposiciones simples para formar proposiciones compuestas. Los principales son: conjunción (∧), disyunción (∨), negación (¬), condicional (→) y bicondicional (↔).</p>
+        </div>
+
+        <div class="tema-card">
+          <h3>3. Tablas de Verdad</h3>
+          <p>Las <strong>tablas de verdad</strong> son herramientas que listan todos los posibles valores de verdad de una proposición compuesta en función de los valores de verdad de sus componentes. Son esenciales para evaluar fórmulas lógicas.</p>
+        </div>
+
+        <div class="tema-card">
+          <h3>4. Tautologías</h3>
+          <p>Una <strong>tautología</strong> es una fórmula proposicional que resulta verdadera para cualquier combinación de valores de verdad de sus variables. Ejemplo clásico: p ∨ ¬p (principio del tercero excluido).</p>
+        </div>
+
+        <div class="tema-card">
+          <h3>5. Contradicciones</h3>
+          <p>Una <strong>contradicción</strong> (o antitautología) es una fórmula que es siempre falsa, sin importar los valores asignados a sus variables. Ejemplo: p ∧ ¬p. En ningún caso puede ser verdadera simultáneamente.</p>
+        </div>
+
+        <div class="tema-card">
+          <h3>6. Contingencias</h3>
+          <p>Una <strong>contingencia</strong> es una fórmula que no es ni tautología ni contradicción: su valor de verdad depende de los valores específicos asignados a sus variables. Representan la mayor parte de las proposiciones cotidianas.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="sep"></div>
+
+    <!-- SECCIÓN ADICIONAL -->
+    <section>
+      <h2>Fundamentos del Álgebra Proposicional</h2>
+      <div class="nosotros-grid">
+        <div>
+          <h3>Leyes de la Lógica</h3>
+          <p>El álgebra proposicional se rige por un conjunto de leyes fundamentales que permiten simplificar y transformar expresiones lógicas:</p>
+          <ul>
+            <li><strong>Identidad:</strong> p ∧ V ≡ p ; p ∨ F ≡ p</li>
+            <li><strong>Dominación:</strong> p ∨ V ≡ V ; p ∧ F ≡ F</li>
+            <li><strong>Idempotencia:</strong> p ∧ p ≡ p ; p ∨ p ≡ p</li>
+            <li><strong>Doble negación:</strong> ¬(¬p) ≡ p</li>
+            <li><strong>De Morgan:</strong> ¬(p ∧ q) ≡ ¬p ∨ ¬q</li>
+            <li><strong>Conmutativa:</strong> p ∧ q ≡ q ∧ p</li>
+            <li><strong>Asociativa:</strong> (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)</li>
+            <li><strong>Distributiva:</strong> p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Inferencia y Validez</h3>
+          <p>Un argumento es <strong>válido</strong> cuando la conclusión se desprende necesariamente de las premisas. Las reglas de inferencia más importantes en lógica proposicional son:</p>
+          <ul>
+            <li><strong>Modus Ponens:</strong> Si p → q y p, entonces q.</li>
+            <li><strong>Modus Tollens:</strong> Si p → q y ¬q, entonces ¬p.</li>
+            <li><strong>Silogismo Hipotético:</strong> Si p → q y q → r, entonces p → r.</li>
+            <li><strong>Adición:</strong> Si p, entonces p ∨ q.</li>
+            <li><strong>Simplificación:</strong> Si p ∧ q, entonces p.</li>
+            <li><strong>Resolución:</strong> Si p ∨ q y ¬p ∨ r, entonces q ∨ r.</li>
+          </ul>
+          <p>Conocer estas reglas permite construir demostraciones formales y verificar la corrección de argumentos en matemáticas y programación.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <p><strong>Lógica Matemática — Proyecto Universitario</strong> &nbsp;|&nbsp; Curso de Fundamentos de Matemáticas &nbsp;|&nbsp; &copy; 2025</p>
+  </footer>
+
+</body>
+</html>
